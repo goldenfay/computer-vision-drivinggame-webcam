@@ -1,0 +1,6 @@
+-GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[, borderType=BORDER_DEFAULT]]] )
+ Filtre gaussien , convulution afin d'adoucir le bruit en éliminant les hautes fréquences
+
+cv.ADAPTIVE_THRESH_MEAN_C au lieur de BINARY
+
+-cv2.resize(src,(width,height))
